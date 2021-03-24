@@ -1,14 +1,13 @@
-import './App.css';
-import IndexPage from './Components/IndexPage';
-import 'bootstrap/dist/css/bootstrap.min.css';
+import Home from "./Pages/Home";
+
+import "bootstrap/dist/css/bootstrap.min.css";
+import "./App.css";
+
 function App() {
   return (
-    <>
-    
-    <div className="App container">
-      <IndexPage/>
+    <div className="container">
+      <Home />
     </div>
-    </>
   );
 }
 

@@ -1,5 +1,5 @@
-import axios from 'axios';
+import axios from "axios";
 
 export default axios.create({
-  baseURL: 'https://localhost:44336/api/booking'
+  baseURL: "https://localhost:44336/api/booking",
 });
