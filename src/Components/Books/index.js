@@ -57,7 +57,7 @@ const BooksIndex = (props) => {
           {props.data.map((book) => (
             <BookRecord
               key={book.id}
-              data={{ book }}
+              book={book}
               actions={{ handleBookAction }}
             />
           ))}

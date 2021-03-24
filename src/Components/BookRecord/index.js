@@ -1,6 +1,6 @@
 const BookRecord = (props) => {
-  const { data, actions } = props;
-  const { book } = data;
+  const { book, actions } = props;
+
   return (
     <tr>
       <th scope="row">{book.id}</th>
