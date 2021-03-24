@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 
 import Spinner from "react-bootstrap/Spinner";
 
-import BooksIndex from "../../Components/BooksIndex";
+import Books from "../../Components/Books";
 import API from "../../axios/api";
 
 const IndexPage = () => {
@@ -34,7 +34,7 @@ const IndexPage = () => {
     );
   }
 
-  return <BooksIndex data={responseData} />;
+  return <Books data={responseData} />;
 };
 
 export default IndexPage;

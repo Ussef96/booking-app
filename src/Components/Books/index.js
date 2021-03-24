@@ -1,9 +1,9 @@
 import React, { useState } from "react";
 import { Modal, Button, Toast, Form } from "react-bootstrap";
 
-import BookRecord from "./BookRecord";
+import BookRecord from "../BookRecord";
 
-import API from "../axios/api";
+import API from "../../axios/api";
 
 const BooksIndex = (props) => {
   const [toast, settoast] = useState(false);
